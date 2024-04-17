@@ -1,0 +1,176 @@
+
+*{
+    font-family: 'montserrat';
+    font-weight: 400;
+}
+.red{
+    border: 3px solid red;
+}
+button{
+    padding: 10px 22px;
+    border: 1px solid  rgba(2, 132, 199, 1);
+    background: none;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(2, 132, 199, 1);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+button:hover{
+    background: rgba(2, 132, 199, 1);
+    color:  rgba(255, 255, 255, 1);
+}
+.navbar-link{
+    font-size: 16px;
+    line-height: 19px;
+    color:  rgba(0, 0, 0, 1);
+}
+
+header{
+    margin-top: 100px;
+    small{
+        color: rgba(2, 132, 199, 1);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+.heading{
+    margin-bottom: 69px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    text-align: center;
+}
+.medium{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(254, 243, 199, 1);
+    color: rgba(222, 136, 33, 1);
+    border: none;
+}
+.basic{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgba(73, 167, 216, 1);
+    background: rgba(224, 242, 254, 1);
+}
+.main{
+    background: rgba(2, 132, 199, 1);
+    .main-text{
+        background: rgba(255, 255, 255, 1);
+        border-radius: 20px;
+        padding-left: 17px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        h3{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        small{
+            color:  rgba(107, 114, 128, 1);
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+}
+.skills{
+    margin-bottom: 142px;
+    h2{
+        color: rgba(51, 65, 85, 1);
+    }
+    p{
+        color: rgba(51, 65, 85, 1);
+    }
+    .col-5{
+        h3{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+}
+.contact{
+    color:  rgba(107, 114, 128, 1);
+    margin-bottom: 131px;
+    h2{
+        color:  rgba(51, 65, 85, 1);
+    }
+    p{
+        color: rgba(51, 65, 85, 1);
+    }
+    form{
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 3px 3px 3px 3px;
+        input{
+            width: 80%;
+            height: 30px;
+            border: 1px solid  rgba(107, 114, 128, 1);
+            border-radius: 5px;
+        }
+        label{
+            width: 80%;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(107, 114, 128, 1);
+            text-align: start;
+
+        }
+        .submit{
+            margin-top: 45px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: rgba(255, 255, 255, 1);
+            background: rgba(2, 132, 199, 1);
+            border-radius: 5px;
+            padding: 10px 50px;
+        }
+    }
+}
+footer{
+    padding-top: 144px;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-position: center;
+    .footer-text{
+        color: rgba(255, 255, 255, 1);
+        h3{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+        }
+        p{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            opacity: 0.8;
+            margin-bottom: 32px;
+        }
+        .footer-icon{
+            margin-bottom: 21px;
+        }
+    }
+}

@@ -1,0 +1,182 @@
+* {
+  font-family: "montserrat";
+  font-weight: 400;
+}
+
+.red {
+  border: 3px solid red;
+}
+
+button {
+  padding: 10px 22px;
+  border: 1px solid rgb(2, 132, 199);
+  background: none;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(2, 132, 199);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button:hover {
+  background: rgb(2, 132, 199);
+  color: rgb(255, 255, 255);
+}
+
+.navbar-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(0, 0, 0);
+}
+
+header {
+  margin-top: 100px;
+}
+header small {
+  color: rgb(2, 132, 199);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+header p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.heading {
+  margin-bottom: 69px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.medium {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(254, 243, 199);
+  color: rgb(222, 136, 33);
+  border: none;
+}
+
+.basic {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(73, 167, 216);
+  background: rgb(224, 242, 254);
+}
+
+.main {
+  background: rgb(2, 132, 199);
+}
+.main .main-text {
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding-left: 17px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.main .main-text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+.main .main-text small {
+  color: rgb(107, 114, 128);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.skills {
+  margin-bottom: 142px;
+}
+.skills h2 {
+  color: rgb(51, 65, 85);
+}
+.skills p {
+  color: rgb(51, 65, 85);
+}
+.skills .col-5 h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.contact {
+  color: rgb(107, 114, 128);
+  margin-bottom: 131px;
+}
+.contact h2 {
+  color: rgb(51, 65, 85);
+}
+.contact p {
+  color: rgb(51, 65, 85);
+}
+.contact form {
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 3px;
+}
+.contact form input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid rgb(107, 114, 128);
+  border-radius: 5px;
+}
+.contact form label {
+  width: 80%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(107, 114, 128);
+  text-align: start;
+}
+.contact form .submit {
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(255, 255, 255);
+  background: rgb(2, 132, 199);
+  border-radius: 5px;
+  padding: 10px 50px;
+}
+
+footer {
+  padding-top: 144px;
+  background-image: url(../img/footer.png);
+  background-size: cover;
+  background-position: center;
+}
+footer .footer-text {
+  color: rgb(255, 255, 255);
+}
+footer .footer-text h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+footer .footer-text p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.8;
+  margin-bottom: 32px;
+}
+footer .footer-text .footer-icon {
+  margin-bottom: 21px;
+}/*# sourceMappingURL=style.css.map */
